@@ -1,0 +1,65 @@
+.services h2 img {
+    width: 30px;
+    height: 30px;
+}
+.services {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.services p {
+    color: white;
+    font-size: 12.5px;
+}
+.services span {
+    color: #f19d39;
+    font-weight: bold;
+    font-size: 14px;
+}
+.webSystem {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+}
+.apps,
+    .uxUi {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 10px;  
+        justify-content: center;
+    }
+.iconServices {
+    background-color: #f19d39;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.iconServices img {
+    width: 100%;
+    height: 100%;
+}
+.servicesDescription {
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.services button {
+    background-color: #f19d39;
+    color: black;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin: auto;
+    font-weight: bold;
+}

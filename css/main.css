@@ -1,0 +1,13 @@
+main {
+  margin-top: 70px;
+  padding: 30px;
+}
+h2 {
+  color: #ffdd00;
+  text-align: center;
+  width: 1rem;
+  display: flex;
+  gap: 10px;
+
+  text-shadow: 2px 2px 4px rgba(50, 100, 200, 0.5);
+}

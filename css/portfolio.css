@@ -1,0 +1,82 @@
+.portfolio h2 img {
+    height: 30px;
+    width: 30px;
+   
+}
+.portfolio {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.portfolioText {
+    background-color: #f19d39;
+    border-radius: 10px;
+    padding: 10px;
+
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    margin-top: 100px;
+}
+.portfolioText span {
+    color: black;
+}
+.portfolioJobs {
+    width: 100%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+.leftJobs {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+    width: 50%;
+
+}
+.firstJob {
+    width: 100%;
+    height: 80px;
+
+    background-color: #f19d39;
+    border-radius: 10px;
+    padding: 5px;
+}
+.firstJob img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}
+.secondJob {
+    width: 100%;
+    height: 200px;
+
+    background-color: #f19d39;
+    border-radius: 10px;
+    padding: 5px;
+}
+.secondJob img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}
+.rightJobs {
+    width: 50%;
+    height: 285px;
+
+    background-color: #f19d39;
+    padding: 5px;
+    border-radius: 10px;
+}
+.rightJobs img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}

@@ -1,0 +1,39 @@
+.prices section {
+    border: 1px solid #f19d39;
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.prices {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.prices section h3, span{
+    color: #f19d39;
+}
+.prices section p {
+    color: white;
+}
+.prices section button {
+    background-color: #f19d39;
+    color: black;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: auto;
+    font-weight: bold;
+}
+.landing-page,
+    .sites,
+        .e-commerce {
+            display: flex;
+            justify-content: space-between;
+        }
