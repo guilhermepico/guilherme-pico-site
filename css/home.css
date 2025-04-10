@@ -1,12 +1,18 @@
 .profile img {
-    height: 250px;
-    width: 250px;
+    height: 260px;
+    width: 260px;
+}
+.profile-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .profile {
     display: flex;
     flex-direction: column;
     font-weight: bold;
-    text-align: left;
+    align-items: center;
+    font-size: 1.6rem;
 }
 .profile section {
     width: 250px;
@@ -37,7 +43,7 @@
 }
 .contactLinks {
     margin-top: 50px;
-    
+    gap: 10px;
     display: flex;
-    justify-content: space-between;
+    width: 260px;
 }

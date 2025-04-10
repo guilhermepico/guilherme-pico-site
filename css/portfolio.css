@@ -1,12 +1,17 @@
-.portfolio h2 img {
+.portfolio img {
     height: 30px;
     width: 30px;
-   
+}
+.portfolio h2 {
+    width: 200px;
+    height: 30px;
 }
 .portfolio {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
 }
 .portfolioText {
     background-color: #f19d39;
@@ -16,7 +21,7 @@
     font-weight: bold;
     color: white;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .portfolioText span {
     color: black;
